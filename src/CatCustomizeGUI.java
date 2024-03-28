@@ -110,12 +110,6 @@ public class CatCustomizeGUI {
             JLabel noImageLabel = new JLabel("No image available :(");
             imagePanel.add(noImageLabel);
         }
-
-      //  String imageName = catType + "_" + eyeColor;
-      //  ImageIcon imageIcon = imageMap.get(imageName);
-       //     JLabel imageLabel = new JLabel(imageIcon);
-      //      imagePanel.add(imageLabel);
-       // imagePanel.setBounds(350, 200, 350, 500);
     }
     private void saveCat() {
         userAccount.addCat(new ArrayList<>(currentCats));
