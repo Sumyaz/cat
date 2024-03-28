@@ -12,8 +12,6 @@ public class Cat {
         this.breed = breed;
         this.color = color;
     }
-
-    // Common method for all cats
     public String getInfo() {
         return "Name: " + name + ", Breed: " + breed + ", Color: " + color;
     }
